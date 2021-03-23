@@ -8,11 +8,24 @@ namespace ClarkCodingChallenge.DataAccess
     public class ContactsRepository : IContactsRepository
     {
         private readonly AppDbContext _context;
-        
+
         public ContactsRepository(AppDbContext context)
         {
             _context = context;
         }
+
+        public void AddContact(Contact contact)
+        {
+            _context.Contacts.Add(contact);
+        }
+
+        public Contact GetContactByEmail(string email)
+        {
+            return _context.Contacts
+                .Where(x => x.Email == email)
+                .FirstOrDefault();
+        }
+
         public IEnumerable<Contact> GetMailingListEntries(string lastName, string sortOrder)
         {
             var query = _context.Contacts as IQueryable<Contact>;
