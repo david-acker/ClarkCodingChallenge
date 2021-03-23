@@ -4,8 +4,8 @@ using ClarkCodingChallenge.Entities;
 
 namespace ClarkCodingChallenge.DataAccess
 {
-    public interface IMailingListEntryRepository
+    public interface IContactsRepository
     {
-        Task<IEnumerable<MailingListEntry>> GetMailingListEntries(string lastName, string sortOrder);
+        IEnumerable<Contact> GetMailingListEntries(string lastName, string sortOrder);
     }
 }

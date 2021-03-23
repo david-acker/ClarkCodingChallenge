@@ -10,6 +10,5 @@ namespace ClarkCodingChallenge.DataAccess
         }
 
         public DbSet<Contact> Contacts { get; set; }
-        public DbSet<MailingListEntry> MailingListEntries { get; set; }
     }
 }
