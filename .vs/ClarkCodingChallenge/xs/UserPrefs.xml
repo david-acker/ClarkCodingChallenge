@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{B2D62ECE-1CDD-4CAD-AF29-F456737C9AE8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClarkCodingChallenge/Controllers/ContactsController.cs">
+    <Files>
+      <File FileName="ClarkCodingChallenge/Controllers/ContactsController.cs" Line="24" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClarkCodingChallenge" expanded="True">
+            <Node name="ClarkCodingChallenge" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ClarkCodingChallenge PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

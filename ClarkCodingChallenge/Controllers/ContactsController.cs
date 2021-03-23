@@ -11,11 +11,11 @@ namespace ClarkCodingChallenge.Controllers
 {
     public class ContactsController : Controller
     {
-        private readonly IContactsRepository _contactsRepository;
+        private readonly IContactsRepository _contactsService;
 
-        public ContactsController(IContactsRepository contractsRepository)
+        public ContactsController(IContactsRepository contactsService)
         {
-            _contactsRepository = contractsRepository;
+            _contactsService = contactsService;
         }
 
         public IActionResult Index()
@@ -26,7 +26,7 @@ namespace ClarkCodingChallenge.Controllers
         [HttpGet]
         public ActionResult<Contact> GetContactByEmail(string email)
         {
-            var contact = _contactsRepository.GetContactByEmail(email);
+            var contact = _contactsService.GetContactByEmail(email);
 
             if (contact == null)
             {
@@ -48,7 +48,7 @@ namespace ClarkCodingChallenge.Controllers
             {
                 try
                 {
-                    _contactsRepository.AddContact(contact);
+                    _contactsService.AddContact(contact);
                 }
                 catch (Exception)
                 {
@@ -71,7 +71,7 @@ namespace ClarkCodingChallenge.Controllers
             string lastName, 
             string sortOrder = "asc")
         {
-            var contacts = _contactsRepository.GetMailingListEntries(lastName, sortOrder);
+            var contacts = _contactsService.GetMailingListEntries(lastName, sortOrder);
         
             return Ok(contacts);
         }

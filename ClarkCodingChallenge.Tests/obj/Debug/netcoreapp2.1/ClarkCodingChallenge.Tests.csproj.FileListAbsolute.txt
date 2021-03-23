@@ -1,0 +1,15 @@
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.deps.json
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.runtimeconfig.json
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.runtimeconfig.dev.json
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.dll
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/bin/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.pdb
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/obj/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.csprojAssemblyReference.cache
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/obj/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.AssemblyInfoInputs.cache
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/obj/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.AssemblyInfo.cs
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/obj/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.csproj.CoreCompileInputs.cache
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/obj/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.dll
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/obj/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.pdb
+/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge.Tests/obj/Debug/netcoreapp2.1/ClarkCodingChallenge.Tests.genruntimeconfig.cache

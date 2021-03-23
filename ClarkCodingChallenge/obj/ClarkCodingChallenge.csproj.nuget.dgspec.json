@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\slieffers\\source\\repos\\ClarkCodingChallenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj": {}
+    "/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge/ClarkCodingChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\slieffers\\source\\repos\\ClarkCodingChallenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj": {
+    "/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge/ClarkCodingChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\slieffers\\source\\repos\\ClarkCodingChallenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj",
+        "projectUniqueName": "/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge/ClarkCodingChallenge.csproj",
         "projectName": "ClarkCodingChallenge",
-        "projectPath": "C:\\Users\\slieffers\\source\\repos\\ClarkCodingChallenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj",
-        "packagesPath": "C:\\Users\\slieffers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\slieffers\\source\\repos\\ClarkCodingChallenge\\ClarkCodingChallenge\\obj\\",
+        "projectPath": "/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge/ClarkCodingChallenge.csproj",
+        "packagesPath": "/Users/DavidAcker/.nuget/packages/",
+        "outputPath": "/Users/DavidAcker/Documents/ClarkCodingChallenge/ClarkCodingChallenge/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\slieffers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/DavidAcker/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.clarkinc.biz:443/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +39,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -53,6 +52,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -61,10 +64,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
